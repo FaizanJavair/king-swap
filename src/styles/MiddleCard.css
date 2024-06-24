@@ -1,0 +1,160 @@
+.card-two {
+  width: 488px;
+  height: 32rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 1rem;
+  background-color: #ffffff0d;
+  border: 1px solid #ffffff12;
+
+  border-radius: 2px;
+}
+.card-two-header {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+}
+.card-two-exchange {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.card-logo {
+  display: flex;
+  align-items: baseline;
+  justify-content: start;
+}
+
+.head-text {
+  font-family: "Jost", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.square {
+  background-color: #a19dff;
+  height: 5px;
+  width: 5px;
+}
+
+.footer {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  color: #a19dff;
+  justify-content: end;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.footer-text {
+  margin-right: 0.5rem;
+}
+
+.card-two-body {
+  background-color: #131229;
+  padding: 1rem;
+  height: 407px;
+}
+
+.swap-icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d1c31;
+  border: 10px solid #131229;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  border-radius: 100%;
+  height: 33px;
+  width: 33px;
+}
+.swap-icon-size {
+  width: 19px;
+  height: 19px;
+}
+
+.generate-key-btn {
+  background: #00ff7f;
+  font-size: 20px;
+  font-family: "IBM Plex Mono", monospace;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #1a1a2e;
+  transition: background 0.3s;
+  width: 100%;
+  height: 56px;
+}
+
+.generate-key-btn:hover {
+  background: #00e676;
+}
+
+.select-token-btn {
+  background: #160f2e22;
+  border: 2px solid #ffffff33;
+  font-size: 20px;
+  font-family: "IBM Plex Mono", monospace;
+  padding: 10px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #ffffff33;
+  transition: background 0.3s;
+  width: 100%;
+  height: 56px;
+}
+
+.select-token-btn:hover {
+  background: #160f2e;
+}
+
+.logo-small {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  width: 26px;
+  height: 20px;
+}
+.logo-small-exchange {
+  margin-right: 0.5rem;
+  width: 26px;
+  height: 20px;
+}
+
+.slippage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #160f2e80;
+  padding: 0.5rem;
+  padding-inline: 1rem;
+  border-radius: 50px;
+}
+
+.slip-text {
+  font-size: 14px;
+  font-family: "IBM Plex Mono", monospace;
+  color: #b69fff;
+  margin-right: 7px;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  .card-two {
+    width: auto;
+    height: 32rem;
+    margin: 2rem;
+  }
+
+  .slip-text {
+    font-size: 10px;
+  }
+}

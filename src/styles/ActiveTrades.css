@@ -1,0 +1,125 @@
+.trading-container {
+  width: 300px;
+  height: 34rem;
+  background-color: #ffffff0d;
+  border: 1px solid #ffffff12;
+  border-radius: 2px;
+}
+.heading {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ffffff13;
+  font-family: "Jost", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.title-small {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff13;
+  padding-inline: 1rem;
+}
+
+.col-val {
+  font-family: "IBM Plex Mono", monospace;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.entry {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  font-family: "Jost", sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.entry-total {
+  font-size: 14px;
+  font-family: "IBM Plex Mono", monospace;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.entry-estimated {
+  font-size: 14px;
+  font-family: "IBM Plex Mono", monospace;
+
+  color: #ffffff33;
+}
+
+.list {
+  padding: 1rem;
+}
+
+.currency-section {
+  display: flex;
+  flex-direction: column;
+  font-family: "IBM Plex Mono", monospace;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+}
+.val-text {
+  margin: 0;
+  font-size: 16px;
+}
+
+.multiplier {
+  margin: 0;
+  padding-inline: 0.8rem;
+  border-radius: 50px;
+}
+
+.mult-text {
+  margin: 0;
+  font-size: 14px;
+}
+
+.current {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  font-family: "Jost", sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.current-total {
+  font-size: 14px;
+  font-family: "IBM Plex Mono", monospace;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.current-estimated {
+  font-size: 14px;
+  font-family: "IBM Plex Mono", monospace;
+
+  color: #ffffff33;
+}
+
+@media only screen and (max-width: 1000px) {
+  .trading-container {
+    width: 20rem;
+  }
+}

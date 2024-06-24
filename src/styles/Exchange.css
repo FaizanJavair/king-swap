@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  background: radial-gradient(
+      circle at center,
+      #aca9ec80,
+      #533e9741,
+      #100a2400,
+      transparent
+    )
+    #100a24 !important;
+
+  min-height: 100vh;
+}
+
+.logo {
+  margin: 1rem;
+  margin-left: 2rem;
+  width: 40px;
+  height: 40px;
+}
+
+.card-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 80vh;
+}
+
+.swap-icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d1c31;
+  border: 10px solid #131229;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  border-radius: 100%;
+  height: 33px;
+  width: 33px;
+}
+.swap-icon-size {
+  width: 19px;
+  height: 19px;
+}
+
+.footer {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  color: #a19dff;
+  justify-content: end;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.footer-text {
+  margin-right: 0.5rem;
+}
+
+.square {
+  background-color: #a19dff;
+  height: 5px;
+  width: 5px;
+}
+
+.token {
+  color: #ffffffbf;
+  display: flex;
+  align-items: center;
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #ffffff0d;
+  border: 1px solid #ffffff12;
+  border-radius: 2px;
+  padding: 0.5rem;
+  height: 20px;
+  margin: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.token span {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 80vh;
+  }
+  .token {
+    width: 15rem;
+  }
+  .logout-icon {
+    width: 20px;
+  }
+  .footer {
+    margin: 2rem;
+  }
+}
