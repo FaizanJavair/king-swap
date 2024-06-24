@@ -50,12 +50,9 @@ body {
 
 .footer {
   font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
   display: flex;
   color: #a19dff;
-  justify-content: end;
-  align-items: center;
-  margin: 0.5rem;
+  justify-content: space-between;
 }
 
 .footer-text {

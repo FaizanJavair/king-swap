@@ -76,11 +76,11 @@ body {
 
 .footer {
   font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
   display: flex;
+
   color: #a19dff;
-  justify-content: end;
-  align-items: center;
+  justify-content: space-between;
+
   margin: 0.5rem;
 }
 
@@ -92,4 +92,17 @@ body {
   background-color: #a19dff;
   height: 5px;
   width: 5px;
+}
+
+.code {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #a19dff;
 }

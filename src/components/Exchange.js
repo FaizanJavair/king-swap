@@ -27,8 +27,16 @@ const Exchange = ({ login }) => {
         <ActiveTrades />
       </div>
       <footer className="footer">
-        <h6 className="footer-text">18540578</h6>
-        <div class="square"></div>
+        <div>
+          <a href="https://github.com/FaizanJavair/">My Github</a>
+        </div>
+        <div>
+          <a href="https://faizanjavair.netlify.app/">My Portfolio</a>
+        </div>
+        <div className="code">
+          <h6 className="footer-text">18540578</h6>
+          <div class="square"></div>
+        </div>
       </footer>
     </div>
   );
